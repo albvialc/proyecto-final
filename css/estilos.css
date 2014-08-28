@@ -1,0 +1,140 @@
+     
+* {
+     margin: 50;
+	 padding: 0;
+ }
+	
+
+.textolegible{ margin: 10px 20px;
+font-family: calibri,verdana, arial, helvetica;
+font-size:30px;
+font-weight:100;
+color:#F3EBEB;
+letter-spacing: 2pt;      /* para separar entre letras */ 
+word-spacing: 5pt;        /* para separacion entre palabras */   
+line-height: 10pt;        /* para la separacion entre lineas */  
+text-indent: 30pt;        /* para sangrias */ 
+}
+
+/* unvisited link */
+a:link {
+    color: #14C642;
+}
+
+/* visited link */
+a:visited {
+    color: #14C642;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+
+
+h1  { 
+    margin:0.25em auto;
+	text-align: center;
+	
+}
+
+
+header  {
+      margin:0.5em auto;
+	  text-align: center;
+	  max-width: 960px;
+	  padding:0.25em;
+
+}
+
+header {
+
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="js/coveringBad.js"></script>
+	<script type="text/javascript">
+
+		$('.first').coveringBad({
+			marginY : 30 ,
+			marginX : 30 ,
+			setX  : 200,
+			setY  : 100 ,
+			direction   : "vertical"
+		});
+
+		$('.second').coveringBad({
+			marginY : 20 ,
+			marginX : 20 ,
+			setX  : 210,
+			setY  : 140 ,
+			direction   : "horizontal"
+		});
+
+		$('.third').coveringBad();
+
+		$('.fourth').coveringBad({
+			marginY : 40 ,
+			marginX : 400 ,
+			setX  : 500,
+			setY  : 235 ,
+			direction   : "vertical"
+		});
+
+
+         text-align= center;
+
+}
+
+
+style { body
+		{
+			background-color: #000;
+			padding: 2%;
+			color: #ccc;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 1em;
+			text-align: center;
+		}
+
+		a
+		{
+			color: #0CC5DA;
+			text-decoration: none;
+			text-align: center;
+
+		} 
+
+		a:hover
+		{
+			color: #DCE808;
+			text-decoration: underline;
+			text-align: center;
+		}
+
+		#mosaic
+		{
+			background-image: url('images/crokis.jpg');
+			text-align: center;
+		}
+
+		#mosaic span.hover
+		{
+			float: left;
+			background-image: url('images/mision1.png');
+			text-align: center;
+		}
+
+}
+
+
+ footer {
+    margin:0.5em auto;
+   text-align= center;
+
+
+}
